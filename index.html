@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fiction Interactive</title>
+</head>
+<body id="body">
+    <div id="bg"></div>
+    <header class="row align-items-center justify-content-center header_class pt-5">
+        <img class="img-fluid imgAdjust" src="css/image/logo.png" alt="Passerelle Numerique">
+        <h1 class="text-center white">Fiction Interactive</h1>
+    </header>
+    <div id="container"class="col-12 m-1">
+        <div class="d-flex flex-column align-items-center">
+            <p id="q1" class="visible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Vous venez d'un pays étranger vous n'avez pas de travail,ni de logement,vous avez des difficultés. Que faites-vous ?
+            </p>
+            <input id="r1"
+            class="btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-2"
+            type="button"
+            value="Il essaye de chercher un travail.">
+            <input id="r2"
+            class="btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-2"
+            type="button"
+            value="Il essaye de se faire de nouveaux amis.">
+        </div>
+        <div  class="d-flex flex-column align-items-center">
+            <p id="q2" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Par quels moyens procède-t-il pour se faire du travail ?
+            </p>
+            <input id="r3"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il fait le tour de certains commerces .">
+            <input id="r4"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il se porte volontaire pour faire du bénévolat .">
+            
+            <p id="q3" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Où faut-il aller pour se faire de nouveaux ammis ?
+            </p>
+            <input id="r5"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il se rend au centre ville .">
+            <input id="r6"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il cherche des associations .">
+        </div>
+        <div class=" d-flex flex-column align-items-center">
+            <p id="q4" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il interpelle des passants .
+            </p>
+            <input id="r7"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il tombe sur un chef d'entreprise .">
+            <input id="r8"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Un inconnu lui propose d'aller à l'office du tourisme .">
+
+            <p id="q5" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Comment peut-il mettre ses atouts en valeur?
+            </p>
+            <input id="r9"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il dépose des CV.">
+            <input id="r10"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il demande au près de certaines entreprises .">
+        </div>
+
+        <div class=" d-flex flex-column align-items-center">
+            <p id="q6" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                On lui propose de passer un entretien .
+            </p>
+            <input id="r11"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il se fait recontacter .">
+            <input id="r12"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il est engagé .">
+
+            <p id="q7" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il tombe sur une entreprise qui recherche des employés .
+            </p>
+            <input id="r13"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="On lui propose un stage .">
+            <input id="r14"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="On lui présente le recruteur .">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="q8" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il a un job
+            </p>
+            <input id="r15"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il cherche une agence immobilière">
+            <input id="r16"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il fait des petites annonces">
+        </div>
+        <div  class="d-flex flex-column align-items-center">
+            <p id="q9" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il trouve une agence qui  lui propose plusieurs offres
+            </p>
+            <input id="r17"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il est intéressé par plusieurs logements">
+            <input id="r18"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il a trouvé une offre intéressante mais trop chère">
+            
+            <p id="q10" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                il trouve plusieurs offres à des prix differents
+            </p>
+            <input id="r19"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il trouve des offres interessantes">
+            <input id="r20"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="un appartement lui plait mais il dépense son budget ailleurs">
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <p id="q11" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il visite l'appartement ça lui plait mais le propriétaire est raciste et ne veut pas lui louer
+            </p>
+            <input id="r21"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il essaye de négocier avec le propriétaire et lui montre qu'il est intégré">
+            <input id="r22"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il s'énerve et lui parle mal et laisse tomber cet appartement">
+
+            <p id="q12" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                il décide quand même de visiter l'appartement , ça lui plait et le propriétaire est sympa et lui propose des aides de financement
+            </p>
+            <input id="r23"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="les aides de financements sont acceptées">
+            <input id="r24"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="les aides de financements sont refusées">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="q13" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il signe les papiers et il reçoit les clefs de son appartement
+            </p>
+            <input id="r25"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il commence à emmenager">
+            <input id="r26"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il laisse ça pour plus tard">
+
+            <p id="q14" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il rencontre une personne chalereuse qui lui propose une colocation
+            </p>
+            <input id="r27"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il accepte">
+            <input id="r28"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="il retourne dans son appartement qu'il a loué précédemment">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="q15" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il trouve un logement
+            </p>
+            <input id="r29"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il décide d'aller voir son voisinage">
+            <input id="r30"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il décide de rester chez lui">
+        </div>
+        <div  class="d-flex flex-column align-items-center">
+            <p id="q16" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il les invite pour l'apéro
+            </p>
+            <input id="r31"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="les voisins acceptent">
+            <input id="r32"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="les voisins n'acceptent pas">
+            
+            <p id="q17" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il prévoit de ranger sa chambre
+            </p>
+            <input id="r33"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il ouvre la porte à ses voisins">
+            <input id="r34"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il préfère regarder la télé">
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <p id="q18" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Ses voisins hésitent à rentrer mais l'invitent en boite
+            </p>
+            <input id="r35"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il accepte et ils vont en boite">
+            <input id="r36"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Ses voisins lui presentent des nouvelles rencontres">
+
+            <p id="q19" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il s'ennuie et decide d'aller en boite de nuit
+            </p>
+            <input id="r37"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il y retrouve ses voisins">
+            <input id="r38"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il fait des nouvelles rencontres">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="q20" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Et il tombe sous le charme d'une jolie fille qui danse sur la piste
+            </p>
+            <input id="r39"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il embrasse la fille qu'il a rencontré">
+            <input id="r40"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il prend son numéro de téléphone">
+
+            <p id="q21" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Parmi les amis de ses voisins, il tombe sur le charme d'une fille
+            </p>
+            <input id="r41"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Il se renseigne">
+            <input id="r42"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Et l'apprecie">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="q22" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il a une copine
+            </p>
+            <input id="r43"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Ils se baladent tranquillement, soudain sa copine eut un petit creu. Il l'invite au snack">
+            <input id="r44"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Un soir, il rentre chez lui et envoie un message à sa copine et lui demande de l'accompagner à une soirée">
+        </div>
+
+        <div  class="d-flex flex-column align-items-center">
+            <p id="q23" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Le moment de payer arrive qui paye le snack ?
+            </p>
+            <input id="r45"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Lui?">
+            <input id="r46"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Elle?">
+            
+            <p id="q24" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Sous l'emprise de l'alcool, sa copine zouk
+            </p>
+            <input id="r47"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Avec son copain">
+            <input id="r48"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Avec un autre homme">
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <p id="q25" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                3 mois plus tard ils décident d'emmenager ensemble
+            </p>
+            <input id="r49"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Chez lui">
+            <input id="r50"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Chez les parents de sa copine">
+
+            <p id="q26" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                3 jours plus tard elle lui envoie un message
+            </p>
+            <input id="r51"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Faut qu'on parle !">
+            <input id="r52"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Elle lui propose une rencontre chez ses parents">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="q27" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                A la fin de la discussion, il lui demande sa main
+            </p>
+            <input id="r53"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="OUI je le veux! Elle accepte">
+            <input id="r54"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Elle refuse car elle n'est pas prête pour une relation serieuse. Elle trouve c'est trop précipité">
+
+            <p id="q28" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Les parents de sa copine n'aiment pas les origines du garçon
+            </p>
+            <input id="r55"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="La copine n'a pas aimé la réaction de ses parents et fugue avec lui">
+            <input id="r56"
+            class="invisible btn btn-dark form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Elle trouve que ses parents ont raison et le renie">
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+            <p id="fin1" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il a les papiers, vivent heureux et ont plein d'enfants
+            </p>
+            <p id="fin2" class="invisible bg_color col-12 col-md-6 col-lg-6 m-2">
+                Il rentre au bled et fini par élever des chèvres
+            </p>
+            <input id="reset"
+            class="invisible btn btn-light form-control col-sm-12 col-md-6 col-lg-6 m-1"
+            type="button"
+            value="Reset">
+        </div>
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

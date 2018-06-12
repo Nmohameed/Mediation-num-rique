@@ -1,0 +1,84 @@
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: initial;
+}
+
+.header_class {
+    margin: 0;
+}
+
+.col-12 {
+    width: initial;
+}
+
+.g1_img {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background-image: url(image/g1_img.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */ 
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+}
+
+.g2_img {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background-image: url(image/g2_img.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */ 
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+}
+
+.g3_img {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background-image: url(image/g3_img.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */ 
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+}
+
+.g4_img {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background-image: url(image/g4_img.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */ 
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+}
+
+.bg_color {
+    background-color: #f7ead4;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.imgAdjust {
+    height: 100px;
+    margin-left: -8%;
+    padding-right: 2%;
+}
